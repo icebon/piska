@@ -1,0 +1,196 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	.tc-item
+		margin-bottom: 20px
+	.main-mnu
+		display: none
+		float: right
+		min-width: 290px
+		text-align: right
+		background-color: #1C242C
+		font-size: em(18px)
+		margin-top: 10px
+		ul
+			li
+				display: block
+				line-height: 0
+				padding: 0
+			a
+				display: block
+				line-height: 48px
+				padding: 0 20px
+				background-color: transparent
+				transition: all .5s ease
+				&:hover
+					background-color: #273646
+
+	.phone-wrap
+		.toggle-mnu
+			line-height: 44px
+		.phone
+			padding-right: 48px
+	.s3-img-wrap
+		margin-left: -234px
+	.info-item-wrapp
+		&:nth-child(4), &:nth-child(6)
+			.info-item
+				margin-left: -326px
+	.section_3 .info-item-wrapp:nth-child(6) .info-item
+		margin-top: -120px
+	.section_3 .info-item-wrapp:nth-child(7) .info-item
+		margin-left: 40px
+	.section_3 .info-item-wrapp:nth-child(1) .info-item
+		margin-left: 75px
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	.cards
+		.card
+			margin-bottom: 20px
+	.s3-img-wrap
+		display: none
+	.section-content
+		.s1-bottom-triangle
+			-webkit-background-size: cover
+			background-size: cover
+	.logo
+		opacity: .95
+		img
+			width: 40%
+	.header-wrap
+		margin-top: 0
+		h1
+			margin-top: 0
+	.info-item
+		margin: 40px 0
+	.section_3 .info-item-wrapp:nth-child(7) .info-item
+		margin-left: -40px
+	.section_3 .info-item-wrapp:nth-child(6) .info-item
+		margin-top: 40px
+	.section_3 .info-item-wrapp:nth-child(1) .info-item
+		margin-left: -40px
+	.info-item-wrapp:nth-child(4) .info-item
+		margin-left: -110px
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	.tc-item
+		margin-right: 15px
+	.logo
+		opacity: .95
+		img
+			width: 40%
+	.phone-wrap
+		.toggle-mnu
+			line-height: 42px
+
+	.info-item
+		max-width: 100%
+		margin-top: 20px
+		margin-bottom: 20px
+		border-bottom: #D6DAE0 1px solid
+		p
+			border: none
+		&:first-child
+			margin-top: 0
+		h4
+			margin-top: 20px
+	.s1-bottom
+		.info-item
+			border-color: #546476
+	.info-item-wrapp:last-child
+		.info-item
+			border-color: transparent
+	.section_1
+		.section-content
+			background-position: bottom
+
+	/*Disable Animation on Mobile Devices*/
+	.animated
+		/*CSS transitions*/
+		-o-transition-property: none !important
+		-moz-transition-property: none !important
+		-ms-transition-property: none !important
+		-webkit-transition-property: none !important
+		transition-property: none !important
+		/*CSS transforms*/
+		-o-transform: none !important
+		-moz-transform: none !important
+		-ms-transform: none !important
+		-webkit-transform: none !important
+		transform: none !important
+		/*CSS animations*/
+		-webkit-animation: none !important
+		-moz-animation: none !important
+		-o-animation: none !important
+		-ms-animation: none !important
+		animation: none !important
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	.slider
+		.owl-controls
+			.owl-nav
+				top: 8%
+	.phone-wrap
+		.phone
+			font-size: em(18px)
+			line-height: 40px
+		.toggle-mnu
+			line-height: 36px
+			padding-top: 8px
+	.logo
+		opacity: .95
+		img
+			width: 100%
+	.s2-items-wrap
+		padding: 0 10px
+		width: 130px
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	.tc-item
+		margin-right: -40px
+	.phone-wrap
+		.phone,
+			font-size: em(18px)
+			line-height: 30px
+		.toggle-mnu
+			line-height: 26px
+			padding-top: 4px
+			width: 24px
+			height: 24px
+	.logo
+		opacity: .95
+		img
+			width: 100%
+	.s2-items-wrap
+		padding: 0 10px
+		width: 130px
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+.phone-wrap
+	.phone
+		font-size: em(20px)
+

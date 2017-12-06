@@ -1,0 +1,462 @@
+@import "bourbon"
+@import "../app/libs/Magnific-Popup/magnific-popup.sass"
+@import "../app/libs/owl/assets/owl.carousel.sass"
+$mail-color: #f39f18
+$headers-color: #2c3949
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #fff
+body input:required:valid,
+body textarea:required:valid
+	color: #fff
+
+.homesect
+	padding-top: 70px
+	background-color: #f9f9f9
+	position: relative
+	a
+		&:hover
+			text-decoration: none
+	.section-head
+		margin-bottom: 60px
+		p
+			margin-top: 60px
+			a
+				font-family: "RalewayBold", $helvetica
+		h2
+			text-align: center
+			position: relative
+			line-height: em(22px)
+			&::after
+				position: absolute
+				content: ''
+				height: 4px
+				background-color: $mail-color
+				width: 165px
+				display: block
+				bottom: -30px
+				left: 50%
+				transform: translate(-50%, 0)
+		h3
+			text-align: center
+			margin-top: 50px
+			line-height: 1.2
+	.section-bottom
+		background-color: #e5e5e5
+		padding: 50px 0
+		text-align: center
+
+	&::before
+		content: ''
+		height: 6px
+		width: 100%
+		position: absolute
+		top: -6px
+		background-image: url(img/bah_1.png)
+.section_1
+	.section-content
+		background-image: url(img/s1_gray_bg.png)
+		background-repeat: no-repeat
+		background-position: top
+	.section-bottom
+		background-color: #2C3949
+.section-content
+	position: relative
+	padding-bottom: 90px
+	.s1-bottom-triangle
+		height: 90px
+		position: absolute
+		bottom: 0
+		background-image: url(img/s1_triangle.svg)
+		z-index: 2
+		width: 100%
+		background-position: center top
+		background-size: 100% 100%
+		text-align: center
+		.triangle-logo
+			width: 116px
+			margin-top: 30px
+
+
+.s1-bottom
+	padding: 15px 0 65px
+	background-color: #394B5F
+	.info-item
+		margin: 15px 0 0
+		p
+			color: #fff
+			border-color: #546476
+	.info-item-wrapp:nth-child(2)
+		.info-item
+			margin-top: 50px
+			
+
+.info-item
+	padding-left: 34px
+	max-width: 264px
+	line-height: em(19px)
+	margin: 54px 0px
+	h4
+		margin-top: 0
+		margin-bottom: 10px
+		a
+			font-size: em(24px)
+			line-height: em(18px)
+			text-decoration: underline
+			text-transform: none
+	p
+		font-size: em(16px)
+		border-bottom: #DEE1E5 1px solid
+		padding-bottom: 20px
+
+.info-item-wrapp:nth-child(2)
+	.info-item
+		margin-top: 0
+
+
+.scales
+	width: 160px
+	position: absolute
+	top: -130px
+	left: 50%
+	transform: translate(-50%, 0)
+	z-index: -1
+
+.s2-items
+	padding-bottom: 10px
+
+	.s2_item
+		text-align: center
+		color: #111111
+		margin-bottom: 75px
+		display: block
+		> span
+			display: block
+		&-text
+			font-family: "RalewayBold", $helvetica
+			font-size: em(14px)
+			line-height: em(20px)
+
+	.img-wrap
+		padding-bottom: 32px
+		margin-bottom: 12px
+		display: block
+		position: relative
+		&::before
+			content: ''
+			position: absolute
+			height: 1px
+			background-color: $mail-color
+			width: 58px
+			bottom: 0
+			left: 50%
+			transform: translate(-50%,0)
+		img
+			max-width: 75px
+			max-height: 60px
+.img-wrap
+	img
+		width: 100%
+		max-width: 100%
+.s2-items-container
+	text-align: center
+.s2-items-wrap
+	display: inline-block
+	float: none
+	padding: 0 15px
+	width: 185px
+.s_dark
+	background-color: #2c3949
+	&:before
+		background-image: url(img/bah_2.png)
+	.section-head
+		h2
+			color: #fff
+		p
+			color: #e5e5e5
+	.section-bottom
+		background-color: #394b5f
+		margin-top: 60px
+.section_3
+	@extend  .section_1
+	.section-content
+		min-height: 850px
+		background-image: url(img/s3_sun_bg.png)
+		padding-bottom: 0
+		padding-top: 62px
+		.info-item
+			margin-top: 84px
+			p
+				color: #e5e5e5
+				border-bottom: 0
+	.info-item-wrapp
+		&:nth-child(2)
+			.info-item
+				margin-top: 0
+		&:nth-child(4), &:nth-child(6)
+			.info-item
+				margin-top: 55px
+		&:nth-child(8)
+			.info-item
+				margin-top: 180px
+		&:nth-child(1), &:nth-child(7)
+			.info-item
+				margin-left: 82px
+		&:nth-child(3), &:nth-child(9)
+			.info-item
+				margin-left: -40px
+		&:nth-child(6)
+			.info-item
+				margin-left: 40px
+
+.s3-img-wrap
+	width:  116px
+	height: 116px
+	background-color: $mail-color
+	text-align: center
+	border-radius: 10em
+	margin: 62px 0 0 126px
+	img
+		width: 70px
+		margin-top: 20px
+		
+.s_gray
+	background-color: #e5e5e5
+	&::before
+		background-image: url(img/bah_3.png)
+	.section-bottom
+		background-color: #d6d6d6
+.section-pb
+	padding-bottom: 70px
+.cards
+	text-align: center
+	perspective: 600px
+	.card
+		&-on
+			opacity: 1
+		&-off
+			transform: rotateY(100deg)
+			opacity: 0
+		width: 260px
+		transition: all 2s ease
+		display: inline-block
+		background-color: #2c3949
+		margin: 0 12px
+		color: #97a4b2
+		font-size: em(15px)
+		line-height: em(22px)
+		padding: 54px 28px 48px
+		vertical-align: top
+		h4
+			color: #e5e5e5
+			font-family: "RalewayBold", $helvetica
+			font-size: em(18px)
+			margin-top: 30px
+			margin-bottom: 18px
+		p
+			margin-bottom: 0
+			height: 75px
+			strong
+				color: $mail-color
+		.card-icon
+			width: 120px
+			height: 120px
+			line-height: 120px
+			display: inline-block
+			background-color: $mail-color
+			border-radius: 10em
+			img
+				width: 75px
+				display: inline-block
+
+.triangles-container
+	color: #fff
+	font-family: "PFCentroSlabProMedium", $helvetica
+	font-size: em(19px)
+	margin:  20px 0 70px
+	text-align: center
+	.tc-item
+		width: 290px
+		height: 128px
+		display: inline-block
+		position: relative
+		margin-left: -46px
+		vertical-align: top
+		cursor: default
+		transition: all .5s ease
+		&:first-child
+			.tc-content
+				margin-left: 40px
+		&:hover
+			transform: scale(1.08)
+			z-index: 3
+			path
+				fill-opacity: 0 !important
+				stroke-opacity: 1 !important
+		svg
+			position: absolute
+			top: 0px
+			left: 0
+			z-index: 0
+		.tc-content
+			position: relative
+			z-index: 1
+			margin-top: 43px
+			margin-left: 55px
+			text-align: left
+			padding-right: 20px
+			span
+				font-size: em(20px)
+			img
+				height: 40px
+				float: left
+				margin-right: 15px
+.teams
+	@extend .cards
+	.team
+		.card-icon
+			overflow: hidden
+			line-height: 0
+			box-shadow: 0 0 0 5px #d6d6d6
+			img
+				width: 100%
+		@extend .card
+		background-color: #e5e5e5
+		border-color: #d6d6d6
+		h4
+			margin-top: 35px
+			color: #333333
+			text-transform: none
+			margin-bottom: 10px
+		p
+			font-size: em(15px)
+			color: #6e7b8b
+			height: auto
+		.team-phone
+			margin-top: 20px
+			color: #333
+			font-family: "RobotoBold", $helvetica
+			font-size: em(18px)
+.homesect
+	.section-head
+		p
+			text-align: center
+.slider
+	margin-bottom: 50px
+	.slide
+		text-align: center
+		font-size: em(14px)
+		margin-bottom: 20px
+		position: relative
+		.img-wrap
+			width: 116px
+			height: 116px
+			display: inline-block
+			border-radius: 10em
+			overflow: hidden
+			box-shadow: 0 0 0 7px $mail-color
+			margin: 8px
+	h3
+		text-transform: none
+		font-size: em(24px)
+	.slide-descr
+		margin-top: 0px
+		font-size: em(18px)
+		color: #6e7b8b
+	.owl-controls
+		text-align: center
+		.owl-dot
+			width: 15px
+			height: 15px
+			margin: 0 2px
+			background-color: #d6d6d6
+			display: inline-block
+			border-radius: 10em
+			&.active
+				background-color: $mail-color
+		.owl-nav
+			position: absolute
+			top: 12%
+			width: 100%
+			height: 40px
+			> div
+				height: 29px
+				width:  16px
+				background-image: url(img/slider_arrows.png)
+				position: absolute
+				left: 20px
+				opacity: .5
+				transition: all .35s ease
+				&:hover
+					opacity: 1
+			.owl-next
+				right: 40px
+				left: auto
+				background-position: -16px 0px
+.homesect.section_8
+	padding-top: 80px
+	.forms
+		border-color: #828282
+		background-color: #ddd
+		h4
+			color: #2c3949
+		p
+			color: #5e6267
+		input
+			background-color: #c0c0c0
+			color: #333!important
+			box-shadow: 0 -3px #1F2A36
+			&:focus
+				box-shadow: 0 -6px $mail-color
+.s8-left
+	.section-head
+		margin-bottom: 50px
+		h2
+			margin-top: 0
+			text-align: left
+			&::after
+				transform: none
+				left: 0
+		p
+			text-align: left
+
+
+.s8-items
+	.s8-item
+		text-align: center
+		.img-wrap
+			height: 72px
+			img
+				height: 72px
+		.s8-item
+			font-family: "RalewayBold", $helvetica
+			font-size: em(13px)
+			line-height: em(19px)
+			margin-top: 18px
+.footer-content
+	margin-bottom: 60px
+	.logo
+		opacity: .35
+	.phone
+		opacity: .45
+	.main-mnu
+		a
+			color: #c7c9cc
+//ALWAYS END
+@import "_media.sass"
